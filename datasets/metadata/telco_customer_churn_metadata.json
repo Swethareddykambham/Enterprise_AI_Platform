@@ -1,0 +1,278 @@
+{
+    "name": "telco_customer_churn",
+    "shape": [
+        1000,
+        21
+    ],
+    "columns": [
+        "gender",
+        "SeniorCitizen",
+        "Partner",
+        "Dependents",
+        "tenure",
+        "PhoneService",
+        "MultipleLines",
+        "InternetService",
+        "OnlineSecurity",
+        "OnlineBackup",
+        "DeviceProtection",
+        "TechSupport",
+        "StreamingTV",
+        "StreamingMovies",
+        "Contract",
+        "PaperlessBilling",
+        "PaymentMethod",
+        "MonthlyCharges",
+        "TotalCharges",
+        "Churn",
+        "Churn_Binary"
+    ],
+    "dtypes": {
+        "gender": "str",
+        "SeniorCitizen": "int64",
+        "Partner": "str",
+        "Dependents": "str",
+        "tenure": "int64",
+        "PhoneService": "str",
+        "MultipleLines": "str",
+        "InternetService": "str",
+        "OnlineSecurity": "str",
+        "OnlineBackup": "str",
+        "DeviceProtection": "str",
+        "TechSupport": "str",
+        "StreamingTV": "str",
+        "StreamingMovies": "str",
+        "Contract": "str",
+        "PaperlessBilling": "str",
+        "PaymentMethod": "str",
+        "MonthlyCharges": "float64",
+        "TotalCharges": "float64",
+        "Churn": "str",
+        "Churn_Binary": "int64"
+    },
+    "null_counts": {
+        "gender": 0,
+        "SeniorCitizen": 0,
+        "Partner": 0,
+        "Dependents": 0,
+        "tenure": 0,
+        "PhoneService": 0,
+        "MultipleLines": 0,
+        "InternetService": 0,
+        "OnlineSecurity": 0,
+        "OnlineBackup": 0,
+        "DeviceProtection": 0,
+        "TechSupport": 0,
+        "StreamingTV": 0,
+        "StreamingMovies": 0,
+        "Contract": 0,
+        "PaperlessBilling": 0,
+        "PaymentMethod": 0,
+        "MonthlyCharges": 0,
+        "TotalCharges": 0,
+        "Churn": 0,
+        "Churn_Binary": 0
+    },
+    "sample": {
+        "gender": {
+            "0": "Male",
+            "1": "Female",
+            "2": "Male",
+            "3": "Male",
+            "4": "Male"
+        },
+        "SeniorCitizen": {
+            "0": 0,
+            "1": 0,
+            "2": 0,
+            "3": 1,
+            "4": 0
+        },
+        "Partner": {
+            "0": "No",
+            "1": "No",
+            "2": "No",
+            "3": "No",
+            "4": "Yes"
+        },
+        "Dependents": {
+            "0": "No",
+            "1": "Yes",
+            "2": "Yes",
+            "3": "Yes",
+            "4": "No"
+        },
+        "tenure": {
+            "0": 51,
+            "1": 47,
+            "2": 4,
+            "3": 7,
+            "4": 35
+        },
+        "PhoneService": {
+            "0": "Yes",
+            "1": "Yes",
+            "2": "Yes",
+            "3": "Yes",
+            "4": "Yes"
+        },
+        "MultipleLines": {
+            "0": "Yes",
+            "1": "Yes",
+            "2": "No",
+            "3": "No",
+            "4": "Yes"
+        },
+        "InternetService": {
+            "0": "No",
+            "1": "DSL",
+            "2": "Fiber optic",
+            "3": "No",
+            "4": "Fiber optic"
+        },
+        "OnlineSecurity": {
+            "0": "No",
+            "1": "Yes",
+            "2": "No",
+            "3": "No internet service",
+            "4": "No internet service"
+        },
+        "OnlineBackup": {
+            "0": "No",
+            "1": "No internet service",
+            "2": "Yes",
+            "3": "No internet service",
+            "4": "No"
+        },
+        "DeviceProtection": {
+            "0": "Yes",
+            "1": "No internet service",
+            "2": "Yes",
+            "3": "No internet service",
+            "4": "No internet service"
+        },
+        "TechSupport": {
+            "0": "No",
+            "1": "No internet service",
+            "2": "No internet service",
+            "3": "Yes",
+            "4": "No internet service"
+        },
+        "StreamingTV": {
+            "0": "No internet service",
+            "1": "No internet service",
+            "2": "No",
+            "3": "No internet service",
+            "4": "No"
+        },
+        "StreamingMovies": {
+            "0": "No",
+            "1": "Yes",
+            "2": "Yes",
+            "3": "No internet service",
+            "4": "No internet service"
+        },
+        "Contract": {
+            "0": "Month-to-month",
+            "1": "One year",
+            "2": "Two year",
+            "3": "One year",
+            "4": "Two year"
+        },
+        "PaperlessBilling": {
+            "0": "Yes",
+            "1": "No",
+            "2": "No",
+            "3": "Yes",
+            "4": "Yes"
+        },
+        "PaymentMethod": {
+            "0": "Mailed check",
+            "1": "Mailed check",
+            "2": "Mailed check",
+            "3": "Electronic check",
+            "4": "Electronic check"
+        },
+        "MonthlyCharges": {
+            "0": 50.4070284780257,
+            "1": 20.85547701181702,
+            "2": 103.36075586882403,
+            "3": 28.743269749364245,
+            "4": 83.07549980407677
+        },
+        "TotalCharges": {
+            "0": 4499.372290046956,
+            "1": 833.0285151230361,
+            "2": 4147.270980959086,
+            "3": 1527.3837626552368,
+            "4": 4062.0722302025797
+        },
+        "Churn": {
+            "0": "Yes",
+            "1": "Yes",
+            "2": "No",
+            "3": "No",
+            "4": "Yes"
+        },
+        "Churn_Binary": {
+            "0": 1,
+            "1": 1,
+            "2": 0,
+            "3": 0,
+            "4": 1
+        }
+    },
+    "statistics": {
+        "SeniorCitizen": {
+            "count": 1000.0,
+            "mean": 0.205,
+            "std": 0.4039036248143091,
+            "min": 0.0,
+            "25%": 0.0,
+            "50%": 0.0,
+            "75%": 0.0,
+            "max": 1.0
+        },
+        "tenure": {
+            "count": 1000.0,
+            "mean": 36.771,
+            "std": 20.393245044461253,
+            "min": 1.0,
+            "25%": 19.0,
+            "50%": 37.0,
+            "75%": 55.0,
+            "max": 71.0
+        },
+        "MonthlyCharges": {
+            "count": 1000.0,
+            "mean": 70.17870622248994,
+            "std": 28.791577230682286,
+            "min": 20.05541845852539,
+            "25%": 45.11039711215909,
+            "50%": 70.39473937748188,
+            "75%": 95.878069126726,
+            "max": 119.98051441338015
+        },
+        "TotalCharges": {
+            "count": 1000.0,
+            "mean": 2545.7714730173043,
+            "std": 1425.6274215882856,
+            "min": 101.51768638352911,
+            "25%": 1332.7127072174053,
+            "50%": 2547.1844474282516,
+            "75%": 3792.572462915496,
+            "max": 4999.631651482565
+        },
+        "Churn_Binary": {
+            "count": 1000.0,
+            "mean": 0.266,
+            "std": 0.44208533049564025,
+            "min": 0.0,
+            "25%": 0.0,
+            "50%": 0.0,
+            "75%": 1.0,
+            "max": 1.0
+        }
+    },
+    "loaded_at": "2026-07-22 21:42:48.221880"
+}

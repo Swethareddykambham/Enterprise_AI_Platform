@@ -1,0 +1,20 @@
+{
+    "timestamp": "20260722_214801",
+    "directories": {
+        "graphs": 6,
+        "metrics": 4,
+        "predictions": 2,
+        "confusion_matrix": 3,
+        "graphs/nlp": 0,
+        "graphs/eda_plots": 0,
+        "graphs/clustering": 0,
+        "graphs/roc_curves": 0,
+        "graphs/training_history": 3,
+        "graphs/forecasting": 0,
+        "metrics/classification_reports": 0
+    },
+    "files_count": 18,
+    "models": [
+        "test_model"
+    ]
+}
