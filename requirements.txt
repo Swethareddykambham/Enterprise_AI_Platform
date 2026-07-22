@@ -1,0 +1,26 @@
+# Core Technology Foundation (from PDF)
+Python>=3.8
+TensorFlow>=2.8.0
+Keras>=2.8.0
+PyTorch>=1.12.0
+scikit-learn>=1.0.0
+pandas>=1.4.0
+numpy>=1.22.0
+matplotlib>=3.5.0
+NLTK>=3.7
+spaCy>=3.4
+Gensim>=4.2.0
+Statsmodels>=0.13.0
+Prophet>=1.1.0
+Streamlit>=1.12.0
+
+# Additional packages
+plotly>=5.11.0
+seaborn>=0.11.0
+wordcloud>=1.8.0
+textblob>=0.17.0
+requests>=2.28.0
+python-dotenv>=0.21.0
+joblib>=1.2.0
+sqlalchemy>=1.4.0
+flask>=2.2.0
